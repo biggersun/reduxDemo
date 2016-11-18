@@ -16,7 +16,7 @@ import reducer from './reducers'
 import { getAllProducts } from './actions'
 import App from './containers/App'
 
-const middleware = [ thunk, logger()]
+var middleware = [ thunk, logger()]
 
 const store = createStore(
   reducer,

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import ProductsContainer from './ProductContainer.jsx'
-import CartContainer from './CartContainer.jsx'
+import ProductsContainer from './ProductContainer'
+import CartContainer from './CartContainer'
 
 export default class App extends Component {
   render() {

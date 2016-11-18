@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react'
-import Product from './Product.jsx'
+import Product from './Product.js'
 
 export default class ProductItem extends Component {
   render() {

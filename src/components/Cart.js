@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import Product from './Product.jsx'
+import Product from './Product'
 
 const Cart  = ({ products, total }) => {
   const hasProducts = products.length > 0
